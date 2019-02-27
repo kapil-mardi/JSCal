@@ -1,0 +1,2 @@
+# JSCal
+Simple HTML Calendar
