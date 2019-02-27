@@ -1,0 +1,52 @@
+<html>
+
+<head>
+
+    <!-- application specific js and css -->
+    <script src="./js/jquery.js"></script>
+    <script src="./js/app.js"></script>
+    <link href="./css/app.css" rel="stylesheet">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- External js and css -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+
+</head>
+
+<body class="container">
+    <div class="row month_header">
+        <div class="col-md-4">
+            <i class="fas fa-chevron-left" id="shiftLeft"></i>
+        </div>
+        <div class="col-md-4 month_header_text">
+            <h5 id="monthHolder">
+                
+            </h5>
+        </div>
+        <div class="col-md-4">
+            <span class="pull-right">
+                <i class="fas fa-chevron-right" id="shiftRight"></i>
+            </span>
+        </div>
+    </div>
+    <div class="row">
+        <table class="table" id="calendarTable">
+            <thead>
+                <th>Sunday</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+            </thead>
+            <tbody id="calendarTableBody">
+
+            </tbody>
+        </table>
+    </div>
+
+</body>
+
+</html>

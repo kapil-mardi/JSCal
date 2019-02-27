@@ -1,0 +1,41 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #d3d3d3 !important;
+    width: 40px;
+    align-items: center;
+}
+
+.nav_left{
+}
+
+.month_header{
+    margin-top: 30px;
+}
+
+.month_header_text{
+    text-align: center;
+}
+
+.pull-right{
+    float: right;
+}
+
+.table{
+    border-radius: 0px;
+    width: 50%;
+    margin: 0px auto;
+    float: none;
+}
+
+.table thead th{
+    text-align: center !important
+}
+
+.table tbody td{
+    text-align: center !important
+}
+
+.today{
+    background-color: green
+}
